@@ -26,6 +26,8 @@ def key_action():
         return 'space'
     if k == 112: # p key
         return 'p'
+    if k == 114: # r key
+        return 'r'
     return None
 
 
